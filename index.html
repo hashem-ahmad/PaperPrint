@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PaperPrint</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Play&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="photos/222.png" type="image/x-icon" />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="photos/222.png" alt="Logo Image" />
+        </div>
+        <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="Packages.html">Packages</a></li>
+          <li><a href="About.html">About-US</a></li>
+          <li
+            class="nav-item icon"
+            id="cart-icon"
+            style="justify-content: flex-end"
+          >
+            <span class="material-icons">shopping_cart</span>
+            <div class="dropdown-menu" id="cart-menu">
+              <h3>Shopping Cart</h3>
+              <p>Your cart is empty.</p>
+            </div>
+          </li>
+          <li
+            class="nav-item icon"
+            id="chat-icon"
+            style="justify-content: flex-end"
+          >
+            <span class="material-icons">chat</span>
+            <div class="dropdown-menu" id="chat-menu">
+              <div class="chat">
+                <h3 class="chat-heading">Live Chat</h3>
+                <div class="chat-container" id="chat-container"></div>
+                <hr />
+                <textarea
+                  id="chat-input"
+                  placeholder="Write a message"
+                  class="input1"
+                ></textarea>
+                <br />
+                <button id="send-button" class="button1">
+                  <span>Send</span>
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="image-container">
+      <img src="photos/home.jpeg" alt="Hover Image" />
+      <div class="text-container">
+        <h1 class="hover-text">PaperPrint</h1>
+        <h3 class="hover-subtext">Customize Your Lifestyle</h3>
+      </div>
+    </div>
+
+    <section class="content-section">
+      <div class="content-text">
+        <h2>With PaperPrint</h2>
+        <h3>
+          Give your employees and customers practical tools that carry your
+          brand identity, which enhances belonging and loyalty and leaves a
+          long-lasting professional impression. Stand out in building your
+          company identity with custom tools that carry your company logo.
+        </h3>
+      </div>
+      <div class="content-image">
+        <img
+          src="photos/5289a096120811.5ea748ae7d7de.jpg"
+          alt="company image"
+        />
+      </div>
+    </section>
+    <section class="cards-section">
+      <article class="card">
+        <img
+          class="card__background"
+          src="./photos/Products.jpeg"
+          alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+          width="1920"
+          height="2193"
+        />
+        <div class="card__content | flow">
+          <div class="card__content--container | flow">
+            <h2 class="card__title">Products</h2>
+            <p class="card__description">
+              Turn your logo into your signature with printed products that
+              combine creativity and high quality!
+            </p>
+          </div>
+          <a href="Product.html"
+            ><button class="cta">
+              <span class="hover-underline-animation"> Shop now </span>
+              <svg
+                id="arrow-horizontal"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="10"
+                viewBox="0 0 46 16"
+              >
+                <path
+                  id="Path_10"
+                  data-name="Path 10"
+                  d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                  transform="translate(30)"
+                ></path>
+              </svg></button
+          ></a>
+        </div>
+      </article>
+      <article class="card">
+        <img
+          class="card__background"
+          src="./photos/Packages.jpeg"
+          alt="Photo of Cartagena's cathedral at the background and some colonial style houses"
+          width="1920"
+          height="2193"
+        />
+        <div class="card__content | flow">
+          <div class="card__content--container | flow">
+            <h2 class="card__title">Packages</h2>
+            <p class="card__description">
+              Browse the available packages, and design a package according to
+              your choice.
+            </p>
+          </div>
+          <a href="Packages.html"
+            ><button class="cta">
+              <span class="hover-underline-animation"> Shop now </span>
+              <svg
+                id="arrow-horizontal"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="10"
+                viewBox="0 0 46 16"
+              >
+                <path
+                  id="Path_10"
+                  data-name="Path 10"
+                  d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z"
+                  transform="translate(30)"
+                ></path>
+              </svg></button
+          ></a>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h2 class="section-Title">Customer Review</h2>
+      <div class="outerdiv">
+        <div class="innerdiv">
+          <!-- div1 -->
+          <div class="div1 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-daniel.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name">Daniel Clifford</p>
+                <p class="designation">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review">
+              <h4>Exceptional Quality and Professional Service</h4>
+              <p>
+                “PaperPrint is an outstanding company! The print quality
+                exceeded my expectations, and the designs were stunning. The
+                team was highly professional, and the quick turnaround made me
+                feel like a valued customer. I’ll definitely work with them
+                again.”
+              </p>
+            </div>
+          </div>
+          <!-- div2 -->
+          <div class="div2 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jonathan.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name">Jonathan Walters</p>
+                <p class="designation">Verified Graduate</p>
+              </div>
+            </div>
+            <div class="review">
+              <h4>Amazing Custom Gifts with Vivid Colors</h4>
+              <p>
+                “ I ordered custom gifts from PaperPrint, and the results were
+                incredible. The colors were vivid, and the details were crystal
+                clear. Excellent service and reasonable prices for such
+                high-quality products. Highly recommended!”
+              </p>
+            </div>
+          </div>
+          <!-- div3 -->
+          <div class="div3 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-kira.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name dark">Kira Whittle</p>
+              </div>
+            </div>
+            <div class="review dark">
+              <h4>The Best Printing Experience Ever!</h4>
+              <p>
+                “The best printing experience I’ve ever had! From placing the
+                order to delivery, the service was exceptional and fast. The
+                team was very helpful and gave me tips to enhance my design. The
+                final product was perfect and exceeded my expectations.”
+              </p>
+            </div>
+          </div>
+          <!-- div4 -->
+          <div class="div4 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-jeanette.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name dark">Jeanette Harmon</p>
+              </div>
+            </div>
+            <div class="review dark">
+              <h4>Precision and Outstanding Quality</h4>
+              <p>
+                “ The best printing experience I’ve had! Exceptional service,
+                fast delivery, and helpful tips from the team. The final product
+                was perfect and beyond my expectations ”
+              </p>
+            </div>
+          </div>
+          <!-- div5 -->
+          <div class="div5 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img
+                  src="https://raw.githubusercontent.com/RahulSahOfficial/testimonials_grid_section/5532c958b7d3c9b910a216b198fdd21c73112d84/images/image-patrick.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="detbox">
+                <p class="name">Patrick Abrams</p>
+              </div>
+            </div>
+            <div class="review">
+              <h4>Trustworthy with Top-Notch Products</h4>
+              <p>
+                “ PaperPrint is a trustworthy company! Professional service,
+                excellent customer care, and top-quality products. They truly
+                care about customer satisfaction and go above and beyond to
+                deliver the best. I’ll definitely recommend them to anyone
+                looking for premium printing services. ”
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="row">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="row">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Packages.html">Packages</a></li>
+            <li><a href="About.html">About-US</a></li>
+          </ul>
+        </div>
+
+        <div class="row">© 2024, Hashem Ahamad</div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
